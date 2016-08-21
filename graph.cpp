@@ -17,8 +17,7 @@ class Graph {
 		~Graph();
 		addEdge(int u, int v);
 		bool isConnected(int u, int v);
-		void BFS(int u);
-
+		
 	private:
 		int n; // number of vertices. 
 		int **A; //adjacency matrix. 
